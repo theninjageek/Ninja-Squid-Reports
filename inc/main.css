@@ -1,0 +1,164 @@
+#header span {
+  font-family:"Times New Roman";
+  color: #B2E489;
+  font-size: 37.05pt;
+  line-height: 119%;
+}
+#header table {
+	cellpadding:0;
+	cellspacing:0;
+	margin: 0px 200px;
+	width: 800px;
+
+	}
+#button {
+	position:absolute;
+	z-index:6;
+	left:122px;
+	top:373px;
+	width:161px;
+	height:42px
+}
+#top10 table {
+	shapes: "_x0000_s1088";
+	cellpadding: 0;
+	cellspacing: 0;
+	width: 288;
+	height: 137;
+	border: 0;
+	dir: ltr;
+	width: 216.0pt;
+	height: 102.73pt;
+	border-collapse: collapse;
+	position: absolute;
+	top: 176.18pt;
+	left: 40.45pt;
+	z-index: 2;
+}
+#top10 td.head {
+	width: 216.0pt;
+	height: 24.2464pt;
+	padding-left: 2.88pt;
+	padding-right: 2.88pt;
+	padding-top: 2.88pt;
+	padding-bottom: 2.88pt;
+}
+#top10 p{
+	text-align:center;
+	text-align:center;
+}
+#top10 span.head {
+	 font-size: 16.0pt;
+	 line-height: 119%;
+	 font-family: "Times New Roman";
+	 color: #3F691D;
+	 font-weight: bold;
+}
+#top10 td.head2 {
+	width:72.0pt;
+	height:26.1631pt;
+	padding-left:2.88pt;
+	padding-right:2.88pt;
+	padding-top:2.88pt;
+	padding-bottom:2.88pt;
+	border-bottom:solid #B2E489 1.0pt;
+}
+#top10 span.head2 {
+	font-size:12.0pt;
+	line-height:119%;
+	font-family:"Times New Roman";
+	color:#3F691D;
+	text-decoration:underline;
+	font-weight:bold;
+}
+#top10 td {
+	
+}
+#top10 span {
+	
+}
+#top10 td {
+	width:72.0pt;
+	height:26.1631pt;
+	padding-left:2.88pt;
+	padding-right:2.88pt;
+	padding-top:2.88pt;
+	padding-bottom:2.88pt;
+	}
+
+#calendar table {
+	cellpadding:0;
+	cellspacing:0; 
+	width:288;
+ 	height:105;
+ 	border:0;
+ 	dir:ltr;
+ 	width:216.0pt;
+ 	height:78.87pt;
+ 	border-collapse:collapse;
+ 	position:absolute;
+ 	top:91.98pt;
+ 	left:40.45pt;
+ 	z-index:3;
+}
+#calendar td {
+	width:216.0pt;
+	height:26.5461pt;
+	padding-left:2.88pt;
+	padding-right:2.88pt;
+	padding-top:2.88pt;
+	padding-bottom:2.88pt;
+}
+#calendar p { 
+	text-align:center;
+}
+#calendar span {
+	font-size:12.0pt;
+	line-height:119%;
+	font-family:"Times New Roman";
+	color:#3F691D;
+	font-weight:bold;
+}
+#traffic table {
+	cellpadding:0;
+	cellspacing:0;
+	border:0;
+	dir:ltr;
+	border-collapse:collapse;
+	position:relative;
+
+	left:262.52pt;
+
+}
+#traffic td.head {
+	width:535.0736pt;
+	height:26.1631pt;
+	padding-left:2.88pt;
+	padding-right:2.88pt;
+	padding-top:2.88pt;
+	padding-bottom:2.88pt'
+}
+#traffic p {
+	text-align:center;
+}
+#traffic span.head {
+	font-size:16.0pt;
+	line-height:119%;
+	font-family:"Times New Roman";
+	color:#3F691D;
+	text-decoration:underline;
+	font-weight:bold;
+}
+#traffic td {
+
+	padding-left:2.88pt;
+	padding-right:2.88pt;
+	padding-top:2.88pt;
+	padding-bottom:2.88pt;
+}
+#traffic span {
+	font-size:12.0pt;
+	line-height:119%;
+	font-family:"Times New Roman";
+	font-weight:bold;
+}
