@@ -17,12 +17,11 @@ else {
 	$month = date('Y-m');
 }
 
-$month2 = "2013-05";
 $totalbytes = total_traffic($month);
 $daycount = count_traffic_month($month);
 $totaltraffic = convertBytes($totalbytes['bytes']);
-$block_count = count_block_month($month2);
-$totalblocks = total_block($month2);
+$block_count = count_block_month($month);
+$totalblocks = total_block($month);
 
 //Let's Generate the HTML part:
 ?>

@@ -187,12 +187,11 @@ $date = $year."-".$month;
 
 <?php 
 
-$month2 = "2013-05";
 $totalbytes = total_traffic($date);
 $daycount = count_traffic_month($date);
 $totaltraffic = convertBytes($totalbytes['bytes']);
-$block_count = count_block_month($month2);
-$totalblocks = total_block($month2);
+$block_count = count_block_month($date);
+$totalblocks = total_block($date);
 ?>
 
 <table style='left:42.95pt;position:relative'>
