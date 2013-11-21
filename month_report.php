@@ -220,16 +220,16 @@ $totalblocks = total_block($date);
  <?php while ($row = mysqli_fetch_array($daycount)){?>
  <tr>
   <td width=143 height=35 valign=Top style='border:solid #B2E489 1.0pt'>
-  <p><span><a href="detail.php?date=<?php echo $row['date'] ?>&report=day_full" title="CAUTION: this will display full report for the day and can be huge!"><?php echo $row['date'] ?></a></span></p>
+  <p><span><?php echo $row['date'] ?></span></p>
   </td>
   <td width=142 height=35 valign=Top style='border:solid #B2E489 1.0pt'>
-  <p><span><a href="detail.php?date=<?php echo $row['date'] ?>&report=day_host" title="Display Day Report on Usage by Host"><?php echo $row['hostID'] ?></a></span></p>
+  <p><span><?php echo $row['hostID'] ?></span></p>
   </td>
   <td width=143 height=35 valign=Top style='border:solid #B2E489 1.0pt'>
-  <p><span><a href="detail.php?date=<?php echo $row['date'] ?>&report=day_user" title="Display Day Report on Usage by User"><?php echo $row['userID'] ?></a></span></p>
+  <p><span><?php echo $row['userID'] ?></span></p>
   </td>
   <td width=143 height=35 valign=Top style='border:solid #B2E489 1.0pt'>
-  <p><span><a href="detail.php?date=<?php echo $row['date'] ?>&report=day_site" title="Display Day Report on Usage by Site"><?php echo $row['siteID'] ?></a></span></p>
+  <p><span><?php echo $row['siteID'] ?></span></p>
   </td>
   <td width=142 height=35 valign=Top style='border:solid #B2E489 1.0pt'>
   <p><span><?php echo convertBytes($row['bytes']) ?></span></p>
@@ -272,7 +272,7 @@ $totalblocks = total_block($date);
  <?php while ($row = mysqli_fetch_array($block_count)){?>
  <tr>
   <td width=143 height=35 valign=Top style='border:solid #B2E489 1.0pt'>
-  <p><span><a href="detail.php?date=<?php echo $row['date'] ?>&report=block" title="Display Detailed Block Report for the day"><?php echo $row['date'] ?></a></span></p>
+  <p><span><?php echo $row['date'] ?></span></p>
   </td>
   <td width=142 height=35 valign=Top style='border:solid #B2E489 1.0pt'>
   <p><span><?php echo $row['hostID'] ?></span></p>
